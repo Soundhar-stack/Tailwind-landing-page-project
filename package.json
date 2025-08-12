@@ -4,3 +4,9 @@
     "tailwindcss": "^4.1.11"
   }
 }
+
+
+"scripts": {
+  "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+}
+
