@@ -3,13 +3,14 @@
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
   },
-  "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css"
-  }
+  
   "scripts": {
   "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
 }
 
 
 }
+
+
+
 
